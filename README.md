@@ -1,1 +1,1 @@
-This is a book powered by [GitBook](https://github.com/GitbookIO/gitbook).
+This is a book by [GitBook](https://github.com/GitbookIO/gitbook).
