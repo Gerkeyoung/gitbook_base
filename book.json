@@ -1,17 +1,22 @@
 {
-    "root":"./",
-    "title":"通过 GitBook 开源框架和 GitHub 私有化部署 Wiki 文档",
-    "head_keywords":"wiki,文档部署",
-    "logo":"./images/logo.png",
-    "gitbook":">= 3.0.0",
-    "language":"zh-hans",
-    "plugins":[
-        "-fontsettings",
-        "-lunr"
+    "root": "./",
+    "title": "入口链接文档",
+    "author" : "Gerkey",
+    "head_keywords": "入口链接文档",
+    "description" : "入口链接文档",
+    "logo": "./images/logo.png",
+    "gitbook": ">= 3.0.0",
+    "language": "zh-hans",
+    "plugins": [
+
     ],
-    "pluginsConfig":{
-        "sitemap-general":{
-            "prefix":"http://zitiao.org/deploy/"
+    "pluginsConfig":
+    {
+        "fontsettings":
+        {
+            "theme": "sepia",
+            "family": "serif",
+            "size": 1
         }
     }
 }
