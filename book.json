@@ -1,14 +1,18 @@
 {
     "root": "./",
     "title": "入口链接文档",
-    "author" : "Gerkey",
+    "author": "Gerkey",
     "head_keywords": "入口链接文档",
-    "description" : "入口链接文档",
+    "description": "入口链接文档",
     "logo": "./images/logo.png",
     "gitbook": ">= 3.0.0",
     "language": "zh-hans",
     "plugins": [
-
+        "splitter",
+        "-sharing",
+        "tbfed-pagefooter",
+        "anchors",
+        "anchor-navigation-ex"
     ],
     "pluginsConfig":
     {
@@ -17,6 +21,19 @@
             "theme": "sepia",
             "family": "serif",
             "size": 1
+        },
+        "tbfed-pagefooter":
+        {
+            "copyright": "Copyright &copy zhangjikai.com 2017",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "anchor-navigation-ex": {
+            "isRewritePageTitle": true,
+            "isShowTocTitleIcon": true,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
         }
     }
 }
